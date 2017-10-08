@@ -108,6 +108,30 @@ input[type=submit] {
 	color: #fff;
 }
 
+/* NAV */
+
+/* PIEL CANELA LOGO */
+
+.piel-logo {
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	color: #000;
+
+}
+
+.piel-logo img,
+.piel-logo figcaption {
+	width: 100%;
+}
+
+.piel-logo figcaption {
+	font-size: 45%;
+	text-align: center;
+}
+
 /* ABOUT THE THERAPIST SECTION */
 
 #about-therapist {
