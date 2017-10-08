@@ -17,6 +17,7 @@ The Official Piel Canela Massage Therapy website.
 ### Nav
 
 - Collapsed icon should always be on the right.
+- When expanded (xl and larger), all nav-items must not take up entire width.
 
 ### All
 
@@ -24,6 +25,8 @@ The Official Piel Canela Massage Therapy website.
 2. Confirm font.
 
 ### Sections
+
+- Fix so you can't scroll to the right and see white space.
 
 1. Hero
   - Replace bg image with a video (once we have the video).
