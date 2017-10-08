@@ -88,20 +88,22 @@
 
 	</section>
 
-	<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+	<nav class="navbar navbar-expand-xl bg-dark navbar-dark sticky-top">
 		<div class="container-fluid">
 			<!-- Logo -->
-			<a class="navbar-brand">
-				<img src="assets/img/large_brown_crop.svg" alt="Piel Canela Logo" class="piel-logo">
-			</a>
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+			<div class="d-inline">
+				<a class="navbar-brand">
+					<!-- SET HOVER POINTER AND HIGHLIGHTING -->
+					<img src="assets/img/large_brown_crop.svg" alt="Piel Canela Logo" href="#" class="piel-logo nav-link scroll-to-top">
+				</a>
+			</div>
+			<div class="d-inline">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav ml-auto"> <!-- ml-auto pushes it over to the right. -->
-					<li class="nav-item">
-						<a href="#" class="nav-link scroll-to-top">Home</a> <!-- Need to set this ID tag in JS. -->
-					</li>
 					<li class="nav-item">
 						<a href="#" class="nav-link scroll-to-schedule">Schedule Now</a>
 					</li>
