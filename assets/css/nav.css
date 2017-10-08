@@ -1,0 +1,191 @@
+/* TOP NAV */
+
+/*.top-row { display: inline-block; }*/
+
+nav {
+
+	float: right;
+	width: 225px; /* Allows the dropdown to descend at full width without having to expand once it reaches the bottom. */
+	height: 57px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 3;
+
+}
+
+.nav-icon {
+
+	cursor: pointer; /* Without the href inside the <a>, we need to specify this. */
+	border-bottom: none !important;
+	width: 57px;
+	height: 57px;
+	
+}
+
+.nav-icon i {
+
+	font-size: 57px;
+	color: #c0c0c0;
+	width: 57px;
+	height: 57px;
+	float: right;
+
+}
+
+.main-nav {
+
+	display: none;
+	float: right; /* Prevents the dropdown from appearing BESIDE the icon when first clicked. */
+
+}
+
+.main-nav a {
+
+	line-height: 225%;
+	border-bottom: none !important;
+
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+	color: #c0c0c0;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+	color: #fff;
+}
+
+.main-nav li {
+
+	text-align: right;
+	background-color: rgba( 0, 0, 0, 0.5 );
+	width: 100%;
+	padding-right: 20px;
+	float: right;
+	list-style: none;
+
+}
+
+/* PIEL CANELA LOGO */
+
+.piel-logo {
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	color: #000;
+
+}
+
+.piel-logo img,
+.piel-logo figcaption {
+	width: 100%;
+}
+
+.piel-logo figcaption {
+	font-size: 45%;
+	text-align: center;
+}
+
+/* SOCIAL ICONS */
+
+.links {
+
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+	height: 57px;
+	width: auto;
+
+}
+
+.schedule-footer {
+	display: inline-block;
+	list-style: none;
+}
+
+.schedule-footer a {
+	/*display: inline-block;*/
+	padding: 10px 20px;
+	font-size: 60%;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	-webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+	transition: background-color 0.2s, border 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
+}
+
+.schedule-footer a:link,
+.schedule-footer a:visited {
+
+	border: 2px solid #c0c0c0;
+	color: #c0c0c0;
+
+}
+
+.schedule-footer a:hover,
+.schedule-footer a:active {
+
+	border: 2px solid #fff;
+	color: #fff;
+
+}
+
+.social {
+
+	display: inline-block;
+	/*height: 100%;*/
+	height: 57px;
+	width: 57px;
+	font-size: 57px;
+	color: #c0c0c0;
+
+}
+
+.social a:hover,
+.social a:active {
+
+	color: #fff;
+
+}
+
+/* CHEVRONS */
+
+.chevron {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.chevron-down {
+
+	bottom: 10px;
+
+}
+
+.chevron-up {
+
+	top: 10px;
+
+}
+
+.chevron a:link,
+.chevron a:visited {
+	opacity: 0.5;
+}
+
+.chevron a:hover,
+.chevron a:active {
+	opacity: 1;
+}
+
+.chevron i {
+	font-size: 70px;
+}
+
+.chevron-inverse {
+	color: #000;
+}
