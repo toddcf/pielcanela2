@@ -32,7 +32,7 @@ h1 {
 
 section {
 	min-height: 100vh;
-	position: relative; /* For the purposes of absolute-positioning the social icons. */
+	/* position: relative; */ /* For the purposes of absolute-positioning the social icons. */
 }
 
 /* HERO SECTION */
@@ -191,14 +191,14 @@ input[type=submit] {
 	line-height: 1.5;
 }*/
 
-/*.massage-benefits,
+.massage-benefits,
 .objections,
 .why-brenda {
-	min-height: 200px;
+	/*min-height: 200px;*/
 	border: 1px solid #fff;
-	border-radius: 5px;
-	padding: 20px 20px 30px 20px;	
-}*/
+	/*border-radius: 5px;*/
+	/*padding: 20px 20px 30px 20px;	*/
+}
 
 /*.massage-benefits,
 .why-brenda {
