@@ -14,6 +14,10 @@ The Official Piel Canela Massage Therapy website.
 
 ## Current Iteration:
 
+### Hero
+
+1. Remove white space at top of screen.
+
 ### Nav
 
 - Collapsed icon should always be on the right.
