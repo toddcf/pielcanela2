@@ -23,6 +23,7 @@ The Official Piel Canela Massage Therapy website.
 
 1. Correctly position the section-footer's SCHEDULE NOW button (and the social links).
 2. Confirm font.
+3. Fix all up and down chevrons.
 
 ### Sections
 
