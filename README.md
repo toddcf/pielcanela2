@@ -17,11 +17,12 @@ The Official Piel Canela Massage Therapy website.
 ### Hero
 
 1. Remove white space at top of screen.
+2. Fit "Piel Canela Massage Therapy" on one line, and check mobile responsiveness.
 
 ### Nav
 
 - Collapsed icon should always be on the right.
-- When expanded (xl and larger), all nav-items must not take up entire width.
+- When expanded (xl and larger), all nav-items must not take up entire width, and should not take up multiple lines of text.
 
 ### All
 
