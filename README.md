@@ -14,61 +14,57 @@ The Official Piel Canela Massage Therapy website.
 
 ## Current Iteration:
 
-### Hero
-
-1. Remove white space at top of screen.
-2. Fit "Piel Canela Massage Therapy" on one line, and check mobile responsiveness.
-
-### Nav
-
-- Collapsed icon should always be on the right.
-- When expanded (xl and larger), all nav-items must not take up entire width, and should not take up multiple lines of text.
-
 ### All
 
 1. Correctly position the section-footer's SCHEDULE NOW button (and the social links).
 2. Confirm font.
 3. Fix all up and down chevrons.
+4. Remove white space at top and right of screen. Should not be able to scroll to the right.
+5. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
+6. Make POLICIES a modal.
 
-### Sections
+### Nav
 
-- Fix so you can't scroll to the right and see white space.
+1. When expanded (xl and larger), all nav-items must not take up entire width, and should not take up multiple lines of text.
 
-1. Hero
-  - Replace bg image with a video (once we have the video).
+### Hero
 
-2. About the Therapist
+1. Replace bg image with a video (once we have the video).
 
-  - Style figcaption correctly.
+### About the Therapist
 
-3. Benefits of Massage
-  - Plain English.
-  - Why they need a massage.
-  - Overcome any objections (expensive, time-consuming, etc.).
-  - Why you are the best massage therapist for them.
+1. Make the image, etc. a card.
+2. Style figcaption correctly.
 
-4. Testimonials
+### Benefits of Massage
 
-- Flexbox:
-  - Make sure flexbox is working correctly, especially at different screen sizes.
+1. Overcome objections.
+2. Why Brenda is the best massage therapist for them.
 
-5. Services and Rates / Gift Certificates
+### Testimonials
 
-  - Flexbox:
-    - Position the side-by-side boxes correctly.
-    - Make sure flexbox is working correctly, especially at different screen sizes.
-    - animate.css each payment logo, one after another.
-    - Make GROUPS card its own flexbox so that OFFICE and PARTIES can go side-by-side on wide screens and stack vertically on small screens.
-    - Groups > Parties, and Policies cards: Make POLICIES link stand out when not hovering.
-    - Center all SCHEDULE NOW and LEARN MORE buttons.
-    - Payments Accepted card: Make credit card icons a flexbox, like in one of the other Bootstrap 4 projects I did.
+1. Test flexbox at all screen sizes.
+2. Make cards transparent. Add border. Make sure they're still readable.
 
-6. Schedule Now / Contact Info / Client Forms
+### Services and Rates / Gift Certificates
 
-- Phone Number.
-- Email Address.
-- Email Form.
-- Links to client forms as separate PDF pages.
+1. Center all SCHEDULE NOW and LEARN MORE buttons on each card.
+2. GROUPS:
+  1. Make this card its own flexbox so that OFFICE and PARTIES can go side-by-side on wide screens and stack vertically on small screens.
+  2. Make POLICIES link stand out even when not hovering.
+3. Test flexbox at all screen sizes.
+4. Payments:
+  1. Payments Accepted card: Make credit card icons a flexbox, like in one of the other Bootstrap 4 projects I did.
+  2. animate.css each payment logo, one after another.
+
+### Schedule Now / Contact Info / Client Forms
+
+1. Add email Form.
+2. Add button link to client forms as separate PDF pages.
+
+### Footer
+
+1. Correctly center social media icons. (Flexbox??)
 
 ### Separate Pages
 
@@ -85,8 +81,6 @@ The Official Piel Canela Massage Therapy website.
   - Links to client forms as separate PDF pages.
   - ADD: PRICES SUBJECT TO CHANGE.
 
-### Mobile Responsiveness
-
 ### Final Checks
 
 1. Make sure the following are visible against all their various backgrounds:
@@ -94,6 +88,7 @@ The Official Piel Canela Massage Therapy website.
   2. Nav Icon
   3. Piel Canela Massage Therapy Logo
   4. Social Media Icons
+2. Test mobile responsiveness.
 
 ### Deployment
 
@@ -104,10 +99,4 @@ The Official Piel Canela Massage Therapy website.
 
 ## Future Iterations:
 
-- Rebuild entire site with Bootstrap 4 and MD Bootstrap.
-  - Use cards in flexbox.
-  - Use hover and click effects.
-  - Use mobile side-nav.
-  - Use sticky nav.
 - Create MailChimp list and add signup form (and icon) to this website.
-- Footer: Correctly center social media icons.
