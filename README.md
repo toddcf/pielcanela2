@@ -32,7 +32,8 @@ The Official Piel Canela Massage Therapy website.
 
 ### Hero
 
-1. Replace bg image with a video (once we have the video).
+1. Reduce the amount of time before the H1 animation descends.
+2. Replace bg image with a video (once we have the video).
 
 ### About the Therapist
 
@@ -40,8 +41,8 @@ The Official Piel Canela Massage Therapy website.
 
 ### Benefits of Massage
 
-1. Overcome objections.
-2. Why Brenda is the best massage therapist for them.
+1. Content: Overcome objections.
+2. Content: Why Brenda is the best massage therapist for them.
 
 ### Testimonials
 
