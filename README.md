@@ -16,16 +16,18 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Correctly position the section-footer's SCHEDULE NOW button (and the social links).
-2. Confirm font.
-3. Fix all up and down chevrons.
-4. Remove white space at top and right of screen. Should not be able to scroll to the right.
+1. Remove white space at top and right of screen. Should not be able to scroll to the right.
+2. Each section-footer: Correctly position the SCHEDULE NOW button (and the social links).
+3. Confirm font.
+4. Add and position all up and down chevrons.
 5. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
 6. Make POLICIES a modal.
 
 ### Nav
 
-1. When expanded (xl and larger), all nav-items must not take up entire width, and should not take up multiple lines of text.
+1. When expanded (xl and larger), nav-items should not take up multiple lines of text.
+2. If possible, have SCHEDULE NOW link always visible in nav.
+3. Align dropdown nav-items to the right.
 
 ### Hero
 
@@ -99,4 +101,5 @@ The Official Piel Canela Massage Therapy website.
 
 ## Future Iterations:
 
-- Create MailChimp list and add signup form (and icon) to this website.
+1. Set active class on nav to whichever section you're viewing.
+2. Create MailChimp list and add signup form (and icon) to this website.

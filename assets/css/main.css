@@ -114,9 +114,9 @@ input[type=submit] {
 
 .piel-logo {
 	
-	position: absolute;
+	/*position: absolute;
 	bottom: 0;
-	left: 0;
+	left: 0;*/
 	width: 200px;
 	color: #000;
 
@@ -125,11 +125,12 @@ input[type=submit] {
 .piel-logo img,
 .piel-logo figcaption {
 	width: 100%;
+	padding: 0 !important;
 }
 
 .piel-logo figcaption {
-	font-size: 45%;
-	text-align: center;
+	font-size: 48%;
+	/*text-align: center;*/
 }
 
 /* ABOUT THE THERAPIST SECTION */
@@ -147,10 +148,10 @@ input[type=submit] {
 	width: 100%;
 }*/
 
-.profile-img figcaption {
+/*.profile-img figcaption {
 	text-align: center;
 	padding: 10px;
-}
+}*/
 
 /*.bio {
 	width: 65%;
@@ -164,9 +165,9 @@ input[type=submit] {
 
 }*/
 
-.bio p {
+/*.bio p {
 	padding-bottom: 20px; 
-}
+}*/
 
 /* BENEFITS OF MASSAGE SECTION */
 

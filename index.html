@@ -43,7 +43,8 @@
 </head>
 
 <body>
-	
+<div class="main-container">
+
 	<!-- HERO -->
 	<section id="hero">
 		<div class="container">
@@ -55,7 +56,7 @@
 
 			<div class="row py-lg-5">
 				<div class="col">
-					<a class="btn btn-full scroll-to-schedule" href="#">Schedule Now</a>
+					<a class="btn btn-full scroll-to-schedule mr-5" href="#">Schedule Now</a>
 					<a class="btn btn-ghost scroll-to-about-therapist" href="#">Learn More</a>
 				</div>
 			</div>
@@ -97,7 +98,10 @@
 			<div class="d-inline">
 				<a class="navbar-brand">
 					<!-- SET HOVER POINTER AND HIGHLIGHTING -->
-					<img src="assets/img/large_brown_crop.svg" alt="Piel Canela Logo" href="#" class="piel-logo nav-link scroll-to-top">
+					<figure class="piel-logo">
+						<img src="assets/img/large_brown_crop.svg" alt="Piel Canela Logo" href="#" class="piel-logo nav-link scroll-to-top">
+						<figcaption href="#" class="nav-link text-right scroll-to-top">piel&nbsp;canela&nbsp;MASSAGE&nbsp;THERAPY</figcaption>
+					</figure>
 				</a>
 			</div>
 			<div class="d-inline">
@@ -146,7 +150,7 @@
 			<div class="row">
 
 				<div class="col">
-					<h1 class="text-white">About the Therapist</h1>
+					<h1 class="text-white text-center">About the Therapist</h1>
 
 					<!-- <div class="chevron chevron-up">
 						<a href="#" class="scroll-to-top">
@@ -161,15 +165,15 @@
 
 				<aside class="col-md-4">
 					
-					<figure class="profile-img">
-						<img src="assets/img/profile.jpg" alt="Brenda Canela" class="img-fluid">
-
-						<figcaption>
-							<p class="text-white">Brenda Canela, CMT</p>
-							<p>CAMTC #30305</p>
-							<p>ABMP #766335</p>
-						</figcaption>
-					</figure>
+					<!-- <figure class="profile-img"> -->
+					<div class="card bg-transparent border-0 mt-1">
+						<img src="assets/img/profile.jpg" alt="Brenda Canela" class="card-img-top img-fluid">
+						<div class="card-body text-center">
+							<p class="card-text text-white">Brenda Canela, CMT</p>
+							<p class="card-text text-white">CAMTC #30305</p>
+							<p class="card-text text-white">ABMP #766335</p>
+						</div>
+					</div>
 					
 					<!-- ADD CERTIFICATION LOGOS HERE -->
 
@@ -246,21 +250,13 @@
 				</div> -->
 				
 				<div class="col">
-					<h1 class="text-white">Benefits of Massage</h1>
+					<h1 class="text-white text-center">Benefits of Massage</h1>
 				</div>
 			</div>
 
 			<div class="row pb-5">
 
 				<main class="col-lg-7">
-
-					<!-- <div class="card" style="width: 20rem;">
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-							<li class="list-group-item">Vestibulum at eros</li>
-						</ul>
-					</div> -->
 
 					<div class="card my-4 bg-transparent text-white text-justify massage-benefits">
 						<div class="card-body">
@@ -314,11 +310,6 @@
 						</div>
 					</div>
 
-						<!-- <div class="why-brenda">
-							
-							<p>(Why Brenda Canela is the best massage therapist for you.)</p>
-						</div> -->
-				
 				</aside>
 				
 			</div> <!-- Close row -->
@@ -364,7 +355,7 @@
 			
 			<div class="row">
 				<div class="col">
-					<h1>Testimonials</h1>
+					<h1 class="text-center">Testimonials</h1>
 				</div>
 			</div>
 
@@ -499,7 +490,7 @@
 			
 			<div class="row">
 				<div class="col">
-					<h1>Services&nbsp;&amp;&nbsp;Rates</h1>
+					<h1 class="text-white text-center">Services&nbsp;&amp;&nbsp;Rates</h1>
 				</div>
 			</div>
 
@@ -650,7 +641,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1 class="text-white">Schedule Now</h1>
+					<h1 class="text-white text-center">Schedule Now</h1>
 				</div>
 			</div>
 		
@@ -768,6 +759,7 @@
 	<!-- Waypoints -->
 	<script src="assets/js/jquery.waypoints.min.js" type="text/javascript"></script>
 
+</div>
 </body>
 
 </html>
