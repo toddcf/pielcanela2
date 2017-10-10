@@ -60,31 +60,37 @@ The Official Piel Canela Massage Therapy website.
   1. Payments Accepted card: Make credit card icons a flexbox, like in one of the other Bootstrap 4 projects I did.
   2. animate.css each payment logo, one after another.
 
-### Schedule Now / Contact Info / Client Forms
+### Schedule Now / Contact / Client Forms
 
-1. Add email Form.
-2. Add button link to client forms as separate PDF pages.
+1. Email Form:
+  1. Add labels, but maybe don't display them. (For ADA purposes only.)
+  2. Improve the styling.
+  3. Link to actual email system and test it. (Must deploy in order to test.)
+2. Add button link to client forms as separate PDF pages -- and center the button within its column.
 
 ### Footer
 
 1. Correctly center social media icons. (Flexbox??)
 
-### Separate Pages
+### FAQ Page
 
-1. Massage FAQ
-  - Plain English.
+1. Plain English.
+2. Use Bootstrap 4's expand and hide features. (And automatically close one answer when a different question is clicked.)
 
-2. Policies
-  - Cancellation Policy
-  - 24-Hour Advance Notice
-  - No-Shows
-  - Late Arrivals
-  - Massage Certifications
-  - Insurance
-  - Links to client forms as separate PDF pages.
-  - ADD: PRICES SUBJECT TO CHANGE.
+### Gift Certificates Page
 
-### Final Checks
+### Policies (Modal AND Separate Page)
+  
+- Cancellation Policy
+- 24-Hour Advance Notice
+- No-Shows
+- Late Arrivals
+- Massage Certifications
+- Insurance
+- Links to client forms as separate PDF pages.
+- ADD: PRICES SUBJECT TO CHANGE.
+
+## Final Checks
 
 1. Make sure the following are visible against all their various backgrounds:
   1. Chevrons
@@ -93,7 +99,7 @@ The Official Piel Canela Massage Therapy website.
   4. Social Media Icons
 2. Test mobile responsiveness.
 
-### Deployment
+## Deployment
 
 1. Test deploy to Heroku.
 2. Get confirmation from Brenda.
