@@ -58,6 +58,10 @@ The Official Piel Canela Massage Therapy website.
     - Position the side-by-side boxes correctly.
     - Make sure flexbox is working correctly, especially at different screen sizes.
     - animate.css each payment logo, one after another.
+    - Make GROUPS card its own flexbox so that OFFICE and PARTIES can go side-by-side on wide screens and stack vertically on small screens.
+    - Groups > Parties, and Policies cards: Make POLICIES link stand out when not hovering.
+    - Center all SCHEDULE NOW and LEARN MORE buttons.
+    - Payments Accepted card: Make credit card icons a flexbox, like in one of the other Bootstrap 4 projects I did.
 
 6. Schedule Now / Contact Info / Client Forms
 
@@ -79,6 +83,7 @@ The Official Piel Canela Massage Therapy website.
   - Massage Certifications
   - Insurance
   - Links to client forms as separate PDF pages.
+  - ADD: PRICES SUBJECT TO CHANGE.
 
 ### Mobile Responsiveness
 
