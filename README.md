@@ -20,7 +20,7 @@ The Official Piel Canela Massage Therapy website.
 2. Each section-footer: Correctly position the SCHEDULE NOW button (and the social links).
 3. Confirm font.
 4. Add and position all up and down chevrons.
-5. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
+5. Fit "Piel Canela Massage Therapy" on one line on most screen sizes. (Make responsive.)
 6. Make POLICIES a modal.
 7. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
 
