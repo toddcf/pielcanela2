@@ -49,15 +49,17 @@ The Official Piel Canela Massage Therapy website.
 1. Test flexbox at all screen sizes.
 2. Make cards transparent. Add border. Make sure they're still readable.
 
-### Services and Rates / Gift Certificates
+### Services and Rates
 
 1. Center all SCHEDULE NOW and LEARN MORE buttons on each card.
+   1. Also, remove the border that appears when you click on a button.
+   2. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
 2. GROUPS:
   1. Make this card its own flexbox so that OFFICE and PARTIES can go side-by-side on wide screens and stack vertically on small screens.
   2. Make POLICIES link stand out even when not hovering.
 3. Test flexbox at all screen sizes.
 4. Payments:
-  1. Payments Accepted card: Make credit card icons a flexbox, like in one of the other Bootstrap 4 projects I did.
+  1. Center each payment icon inside its column div.
   2. animate.css each payment logo, one after another.
 
 ### Schedule Now / Contact / Client Forms
@@ -78,6 +80,8 @@ The Official Piel Canela Massage Therapy website.
 2. Use Bootstrap 4's expand and hide features. (And automatically close one answer when a different question is clicked.)
 
 ### Gift Certificates Page
+
+1. Use a lightbox to display images of the gift certificates (front and back) when clicked.
 
 ### Policies (Modal AND Separate Page)
   
