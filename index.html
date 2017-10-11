@@ -567,7 +567,7 @@
 							<div class="col-md-6">
 								<div class="card-body p-4">
 									<h3 class="card-title text-center">Parties</h3>
-									<p class="card-text text-justify">Whatever the occasion, gather a few close friends and have a party! Each guest is responsible for their scheduled service. The host provides all party details and a private room with sufficient space for all services. The host receives 20% off their scheduled service. Therapist will provide all massage equipment, supplies, and ambiance. Group bookings must be scheduled at least a month in advance. Please review the <a href="policies.html" target="_blank">cancellation policy</a> with all guests. There is a 4-5 guest maximum, depending on the services scheduled.</p>
+									<p class="card-text text-justify">Whatever the occasion, gather a few close friends and have a party! Each guest is responsible for their scheduled service. The host provides all party details and a private room with sufficient space for all services. The host receives 20% off their scheduled service. Therapist will provide all massage equipment, supplies, and ambiance. Group bookings must be scheduled at least a month in advance. Please review the <a href="#" data-toggle="modal" data-target="#policiesModal">cancellation policy</a> with all guests. There is a 4-5 guest maximum, depending on the services scheduled.</p>
 								</div>
 							</div>
 
@@ -855,25 +855,21 @@
 
 	<!-- MODALS -->
 
-	<!-- Category Modal -->
+	<!-- Policies Modal -->
 	<div class="modal fade" id="policiesModal">
-		<div class="modal-dialog modal-lg">
+		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header bg-success text-white">
-					<h5 class="modal-title">Add Category</h5>
-					<button class="close" data-dismiss="modal"><span>&times;</span></button>
+					<h5 class="modal-title">Policies</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
 				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="title">Category</label>
-							<input type="text" class="form-control">
-						</div>
-					</form>
+					<p>Placeholder text.</p>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-danger" data-dismiss="modal">Cancel</button>
-					<button class="btn btn-success" data-dismiss="modal">Save Changes</button>
+					<button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
