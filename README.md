@@ -22,6 +22,7 @@ The Official Piel Canela Massage Therapy website.
 4. Add and position all up and down chevrons.
 5. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
 6. Make POLICIES a modal.
+7. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
 
 ### Nav
 
@@ -59,7 +60,7 @@ The Official Piel Canela Massage Therapy website.
   2. Make POLICIES link stand out even when not hovering.
 3. Test flexbox at all screen sizes.
 4. Payments:
-  1. Center each payment icon inside its column div.
+  1. Center each payment icon inside its column div. (Accomplishing this should make their spacing look right at all screen widths.)
   2. animate.css each payment logo, one after another.
 
 ### Schedule Now / Contact / Client Forms
