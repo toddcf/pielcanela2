@@ -538,10 +538,10 @@
 							</ul>
 							<div class="row d-flex flex-row">
 								<div class="col-md-6">
-									<a class="btn btn-outline-orange btn-block mt-4 py-2" href="infant.html"><h6 class="infant-buttons">Learn More</h6></a>
+									<a class="btn btn-outline-orange btn-block mt-4 py-2" href="infant.html"><h6 class="button-text">Learn More</h6></a>
 								</div>
 								<div class="col-md-6">
-									<a class="btn btn-orange btn-block mt-4 py-2 scroll-to-schedule" href="#"><h6 class="infant-buttons">Schedule Now</h6></a>
+									<a class="btn btn-orange btn-block mt-4 py-2 scroll-to-schedule" href="#"><h6 class="button-text">Schedule Now</h6></a>
 								</div>
 							</div>
 						</div>
@@ -636,7 +636,9 @@
 							<p class="card-text text-justify">Please review the cancellation, late, no-show, and trip charge policies on our <a href="policies.html" target="_blank">policies</a> page.</p>
 						</div>
 						<div class="card-footer">
-							<a href="#" class="btn btn-orange">View Policies</a>
+							<div class="container">
+								<a href="#" data-toggle="modal" data-target="#policiesModal" class="btn btn-orange btn-block my-2 py-3"><h3 class="button-text">View Policies</h3></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -864,23 +866,25 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header bg-success text-white">
-					<h5 class="modal-title">Policies</h5>
+					<h4 class="modal-title">Policy Overview</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
-					<p class="lead">We understand that unanticipated events happen occasionally in everyone's life. In our desire to be effective and fair to all clients, the following policies are honored:</p>
-					<p><h4>24&ndash;hour advance notice is required</h4>&nbsp;when cancelling an appointment. This allows the opportunity for someone else to schedule an appointment. If you are unable to give us 24 hours advance notice, you will be charged the <strong>full amount</strong> of your appointment.</p>
-					<p><strong>Group bookings require ten days' advance notice for cancellation.</strong></p>
-					<p><h4>No-Shows</h4></p>
-					<p>Anyone who misses their scheduled appointment without giving 24 hours' advance notice will be considered a "no-show," and will be charged for their missed appointment.</p>
-					<p><h4>Late Arrivals</h4></p>
-					<p>If you arrive late, your session may be shortened in order to accommodate others whose appointments follow yours. Depending upon how late you arrive, the therapist will then determine if there is enough time remaining to start a treatment. Regardless of the length of treatment actually given, or if the therapist determines there is not enough time to begin a treatment at all, <strong>you will be billed for the full session</strong>. Out of respect and consideration for your therapist and other customers, please plan accordingly and be on time.</p>
+					<p class="lead text-justify p-3"><em>We understand that unanticipated events happen occasionally in everyone's life. In our desire to be effective and fair to all clients, the following policies are honored:</em></p>
+					<ul>
+						<li>24 hours advance notice required for cancellation. (10-day advance notice required for group massage cancellation.) Cancellation on shorter notice will result in being billed for the full session.</li>
+						<li>If you do not show up for your appointment, you will be billed for the full session.</li>
+						<li>If you are late for your appointment, your session may be shortened to accommodate others whose appointments follow yours. Depending upon how late you are, the therapist may determine that there is not enough time to begin your session. You will be billed for the full session.</li>
+						<li>Trip Charge</li>
+						<li>Prices subject to change.</li>
+					</ul>
+					<p class="lead text-center"><em>Piel Canela Massage Therapy looks forward to serving you!</em></p>
 				</div>
 				<div class="modal-footer">
-					<p><em>Piel Canela Massage Therapy looks forward to serving you!</em></p>
-					<button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-outline-success">See Full Policy Document</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>

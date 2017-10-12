@@ -94,6 +94,7 @@ The Official Piel Canela Massage Therapy website.
 - Insurance
 - Links to client forms as separate PDF pages.
 - ADD: PRICES SUBJECT TO CHANGE.
+- ADD: TRIP CHARGE INFO.
 
 ## Final Checks
 
