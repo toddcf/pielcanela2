@@ -66,8 +66,10 @@ footer li {
 /* Same as nav css -- can it be condensed? */
 .social-logo {
 
-	height: 57px;
-	width: 57px;
-	padding: 40px;
+	font-size: 57px;
+
+	/*height: 57px;
+	width: 57px;*/
+	/*padding: 40px;*/
 
 }

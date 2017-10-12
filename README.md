@@ -30,7 +30,6 @@ The Official Piel Canela Massage Therapy website.
 2. If possible, have SCHEDULE NOW link always visible in nav.
 3. Align dropdown nav-items to the right.
 4. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
-5. Fix `scroll-to-` links. This is probably a broken jQuery link!
 
 ### Hero
 
@@ -74,7 +73,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Footer
 
-1. Correctly center social media icons. (Flexbox??)
+- N/A
 
 ### FAQ Page
 
