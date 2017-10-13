@@ -413,6 +413,10 @@ blockquote {
 	background-color: #555;
 }
 
+.telephone {
+	color: #e67e22;
+}
+
 /* ANIMATION */
 
 .animated {

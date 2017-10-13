@@ -48,8 +48,7 @@ N/A
 
 ### Testimonials
 
-1. Test flexbox at all screen sizes.
-2. Make cards transparent. Add border. Make sure they're still readable.
+N/A
 
 ### Services and Rates
 
@@ -66,11 +65,12 @@ N/A
 
 ### Schedule Now / Contact / Client Forms
 
-1. Email Form:
+1. Fix hover effect on phone number. (Don't turn blue when hovering. Always underline so people know it can be clicked.)
+2. Email Form:
   1. Add labels, but maybe don't display them. (For ADA purposes only.)
   2. Improve the styling.
   3. Link to actual email system and test it. (Must deploy in order to test.)
-2. Add button link to client forms as separate PDF pages -- and center the button within its column.
+3. Add button link to client forms as separate PDF pages -- and center the button within its column.
 
 ### Footer
 
