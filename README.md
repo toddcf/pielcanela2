@@ -27,8 +27,7 @@ The Official Piel Canela Massage Therapy website.
 
 1. When expanded (xl and larger), nav-items should not take up multiple lines of text. See https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography.
 2. If possible, have SCHEDULE NOW link always visible in nav.
-3. Align dropdown nav-items to the right.
-4. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
+3. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
 
 ### Hero
 
