@@ -300,6 +300,9 @@ input[type=submit] {
 
 .blockquote-footer {
 	background: transparent;
+	color: #000;
+	font-size: 100%;
+	text-align: right;
 }
 
 /* VANILLA FLEXBOX */
