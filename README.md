@@ -23,21 +23,23 @@ The Official Piel Canela Massage Therapy website.
 5. Make POLICIES a modal.
 6. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
 
+### Hero (Header)
+
+1. Replace bg image with a video (once we have the video).
+2. Mobile Responsiveness:
+  a. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
+  b. Position buttons correctly for different screen sizes.
+3. I removed the white margin on top of HERO by manually adding `margin-top: -30px;`, but I shouldn't have to do that. Figure out what is wrong.
+
 ### Nav
 
 1. When expanded (xl and larger), nav-items should not take up multiple lines of text. See https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography.
 2. If possible, have SCHEDULE NOW link always visible in nav.
 3. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
 
-### Hero
-
-1. Reduce the amount of time before the H1 animation descends.
-2. Replace bg image with a video (once we have the video).
-3. Fit "Piel Canela Massage Therapy" on one line on most screen sizes. (Make responsive.)
-
 ### About the Therapist
 
-1. Remove rounded corners on image.
+N/A
 
 ### Benefits of Massage
 

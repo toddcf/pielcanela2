@@ -292,7 +292,17 @@ input[type=submit] {
 	color: #555;
 }
 
-/* FLEXBOX */
+.testimonial-card {
+	border: 1px solid #000;
+	border-radius: 10px;
+	background: rgba(255,255,255, 0.6);
+}
+
+.blockquote-footer {
+	background: transparent;
+}
+
+/* VANILLA FLEXBOX */
 .flex-container {
 	margin: 0 auto 100px auto;
 	width: 70%;
@@ -317,8 +327,7 @@ input[type=submit] {
 	line-height: 150%;
 	letter-spacing: 1px;
 	font-size: 105%;
-	border: 1px solid #555;
-	border-radius: 10px;
+	
 	margin: 15px;
 	flex-grow: 1;
 	flex: 0 1 auto;
@@ -404,14 +413,14 @@ blockquote {
 /* ANIMATION */
 
 .animated {
-  animation-duration: 15s;
+  animation-duration: 8s;
   animation-fill-mode: both;
 }
 
 @keyframes fadeInDown {
   from {
 	opacity: 0;
-	transform: translate3d(0, -300%, 0);
+	transform: translate3d(0, -100%, 0);
   }
 
   to {
