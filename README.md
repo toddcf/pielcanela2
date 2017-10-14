@@ -21,6 +21,7 @@ The Official Piel Canela Massage Therapy website.
   2. Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
   3. Remove Bootstrap's blue outline that appears automatically after button is clicked.
 2. Add social links to footer of each section.
+  1. Vertically center the "Join Us" text.
 3. Optional: Add and position all up and down chevrons.
 
 ### Hero (Header)
