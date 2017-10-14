@@ -1,4 +1,4 @@
-/*Extra small devices (portrait phones, less than 576px)*/
+Extra small devices (portrait phones, less than 576px)*/
 /*No media query since this is the default in Bootstrap*/
 
 /** {
@@ -471,6 +471,12 @@ blockquote {
   animation-name: fadeInDown;
 }
 
+/*SCHEDULE NOW SECTION*/
+
+.forms-button {
+	font-size: 110% !important;
+}
+
 /* MEDIA QUERIES */
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -482,6 +488,10 @@ blockquote {
 
 	h1 {
 		font-size: 390% !important;
+	}
+
+	.forms-button {
+		font-size: 140% !important;
 	}
 
 }
@@ -502,7 +512,10 @@ blockquote {
 		font-size: 1.4rem !important;
 	}
 
+	.forms-button {
+		font-size: 130% !important;
+	}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) { ... }*/
+/*@media (min-width: 1200px) { ... }

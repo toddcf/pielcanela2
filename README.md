@@ -67,7 +67,7 @@ N/A
   1. Add labels, but maybe don't display them. (For ADA purposes only.)
   2. Improve the styling.
   3. Link to actual email system and test it. (Must deploy in order to test.)
-3. Add button link to client forms as separate PDF pages -- and center the button within its column.
+3. Add card with link to client forms with separate PDF pages -- and center the button within its column.
 
 ### Footer
 
