@@ -34,6 +34,7 @@ The Official Piel Canela Massage Therapy website.
 
 1. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
 2. Connect all links to other pages (once those pages are created).
+3. Once a nav-item is clicked, the nav should collapse.
 
 ### About the Therapist
 
@@ -41,7 +42,8 @@ N/A
 
 ### Benefits of Massage
 
-1. Content: Overcome objections.
+1. Instead of a long list on one card, separate all the bullet points out onto individual flexbox cards!
+2. Content: Overcome objections.
 2. Content: Why Brenda is the best massage therapist for them.
 
 ### Testimonials
@@ -67,7 +69,7 @@ N/A
   1. Add labels, but maybe don't display them. (For ADA purposes only.)
   2. Improve the styling.
   3. Link to actual email system and test it. (Must deploy in order to test.)
-3. Add card with link to client forms with separate PDF pages -- and center the button within its column.
+3. Add link to client forms page with separate PDFs (once that page is created).
 
 ### Footer
 
