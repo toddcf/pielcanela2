@@ -261,6 +261,7 @@ input[type=submit] {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../img/hands-xl.jpg);
 	background-size: cover; /*Shows entire image*/
 	background-position: center; /*Centers the background*/
+	background-attachment: fixed;
 }
 
 /*.benefits-row {

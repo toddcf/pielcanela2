@@ -43,8 +43,9 @@ N/A
 ### Benefits of Massage
 
 1. Instead of a long list on one card, separate all the bullet points out onto individual flexbox cards!
+2. Each benefit card should fade in using Waypoints when the user scrolls down.
 2. Content: Overcome objections.
-2. Content: Why Brenda is the best massage therapist for them.
+3. Content: Why Brenda is the best massage therapist for them.
 
 ### Testimonials
 
