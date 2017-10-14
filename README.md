@@ -16,7 +16,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Add SCHEDULE NOW btn-outline to nav at all times.
+1. Buttons: Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
 2. Add social links to footer of each section.
 3. Optional: Add and position all up and down chevrons.
 4. Make POLICIES a modal.
@@ -27,15 +27,13 @@ The Official Piel Canela Massage Therapy website.
 
 1. Replace bg image with a video (once we have the video).
 2. Mobile Responsiveness:
-  a. Fit "Piel Canela Massage Therapy" on one line on most screen sizes.
-  b. Position buttons correctly for different screen sizes.
+  a. Position buttons correctly for different screen sizes.
 3. I removed the white margin on top of HERO by manually adding `margin-top: -30px;`, but I shouldn't have to do that. Figure out what is wrong.
 
 ### Nav
 
-1. When expanded (xl and larger), nav-items should not take up multiple lines of text. See https://getbootstrap.com/docs/4.0/content/typography/#responsive-typography.
-2. If possible, have SCHEDULE NOW link always visible in nav.
-3. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
+1. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
+2. Connect all links to other pages (once those pages are created).
 
 ### About the Therapist
 
@@ -56,8 +54,7 @@ N/A
    1. Also, remove the border that appears when you click on a button.
    2. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
 2. GROUPS:
-  1. Make this card its own flexbox so that OFFICE and PARTIES can go side-by-side on wide screens and stack vertically on small screens.
-  2. Make POLICIES link stand out even when not hovering.
+  1. Make POLICIES link stand out even when not hovering.
 3. Test flexbox at all screen sizes.
 4. Payments:
   1. Center each payment icon inside its column div. (Accomplishing this should make their spacing look right at all screen widths.)

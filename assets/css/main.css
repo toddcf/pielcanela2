@@ -24,7 +24,7 @@ body {
 }
 
 header {
-	margin-top: -30px;
+	margin-top: -35px;
 	/*margin-left: 0;
 	margin-right: 0;*/
 }
@@ -42,7 +42,8 @@ a {
 h1 {
 	margin: 0;
 	padding: 60px 0;
-	font-size: 400%;
+	/*font-size: 400%;*/
+	font-size: 300%;
 	font-weight: 300;
 }
 
@@ -457,6 +458,10 @@ blockquote {
 
 	html {
 		font-size: 1.2rem !important;
+	}
+
+	h1 {
+		font-size: 390% !important;
 	}
 
 }
