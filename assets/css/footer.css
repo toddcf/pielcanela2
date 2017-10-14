@@ -47,29 +47,3 @@ footer li {
 	font-size: 80%;
 
 }
-
-.social-footer {
-
-	padding-bottom: 0px;
-
-}
-
-/* Same as nav css -- can it be condensed? */
-.social-footer li {
-
-	display: inline-block;
-	font-size: 57px;
-	padding-bottom: 10px;
-
-}
-
-/* Same as nav css -- can it be condensed? */
-.social-logo {
-
-	font-size: 57px;
-
-	/*height: 57px;
-	width: 57px;*/
-	/*padding: 40px;*/
-
-}
