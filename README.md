@@ -69,7 +69,8 @@ N/A
 2. Email Form:
   1. Add labels, but maybe don't display them. (For ADA purposes only.)
   2. Improve the styling.
-  3. Link to actual email system and test it. (Must deploy in order to test.)
+  3. Fix styling of SUBMIT button.
+  4. Link to actual email system and test it. (Must deploy in order to test.)
 3. Add link to client forms page with separate PDFs (once that page is created).
 
 ### Footer
