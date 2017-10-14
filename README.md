@@ -16,12 +16,12 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Remove white space at top and right of screen. Should not be able to scroll to the right.
-2. Each section-footer: Correctly position the SCHEDULE NOW button (and the social links).
-3. Confirm font.
-4. Add and position all up and down chevrons.
-5. Make POLICIES a modal.
-6. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
+1. Add SCHEDULE NOW btn-outline to nav at all times.
+2. Add social links to footer of each section.
+3. Optional: Add and position all up and down chevrons.
+4. Make POLICIES a modal.
+5. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
+6. Remove heading tags from all buttons, as their automatic padding is screwing up the vertical alignment.
 
 ### Hero (Header)
 
