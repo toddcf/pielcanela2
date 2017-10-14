@@ -7,14 +7,15 @@
 
 html {
 	/*position: relative;*/
-	font-size: 20px;
+	/*font-size: 20px;*/
+	font-size: 16px; /*xs screens*/
 	color: #fff;
 	letter-spacing: 1px;
 }
 
 body {
 	font-family: 'Lato', sans-serif, arial;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	font-weight: 300;
 	margin: 0;
 }
@@ -439,3 +440,38 @@ blockquote {
 .fadeInDown {
   animation-name: fadeInDown;
 }
+
+/* MEDIA QUERIES */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+	html {
+		font-size: 1.2em;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
+	html {
+		/*font-size: 1.3em;*/
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+	html {
+		font-size: 1.3em;
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
