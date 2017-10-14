@@ -16,19 +16,17 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Buttons: Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
+1. Buttons:
+  1. Remove heading tags from all buttons, as their automatic padding is screwing up the vertical alignment.
+  2. Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
+  3. Remove Bootstrap's blue outline that appears automatically after button is clicked.
 2. Add social links to footer of each section.
 3. Optional: Add and position all up and down chevrons.
-4. Make POLICIES a modal.
-5. Make H1s for each section responsive -- the text should get smaller as the screen width shrinks instead of being cut off.
-6. Remove heading tags from all buttons, as their automatic padding is screwing up the vertical alignment.
 
 ### Hero (Header)
 
 1. Replace bg image with a video (once we have the video).
-2. Mobile Responsiveness:
-  a. Position buttons correctly for different screen sizes.
-3. I removed the white margin on top of HERO by manually adding `margin-top: -30px;`, but I shouldn't have to do that. Figure out what is wrong.
+2. I removed the white margin on top of HERO by manually adding `margin-top: -30px;`, but I shouldn't have to do that. Figure out what is wrong.
 
 ### Nav
 
@@ -42,8 +40,7 @@ N/A
 
 ### Benefits of Massage
 
-1. Instead of a long list on one card, separate all the bullet points out onto individual flexbox cards!
-2. Each benefit card should fade in using Waypoints when the user scrolls down.
+1. Each benefit card should fade in using Waypoints when the user scrolls down.
 2. Content: Overcome objections.
 3. Content: Why Brenda is the best massage therapist for them.
 
@@ -53,24 +50,23 @@ N/A
 
 ### Services and Rates
 
-1. Center all SCHEDULE NOW and LEARN MORE buttons on each card.
-   1. Also, remove the border that appears when you click on a button.
-   2. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
-2. GROUPS:
-  1. Make POLICIES link stand out even when not hovering.
-3. Test flexbox at all screen sizes.
-4. Payments:
-  1. Center each payment icon inside its column div. (Accomplishing this should make their spacing look right at all screen widths.)
-  2. animate.css each payment logo, one after another.
+1. Style all services cards.
+  1. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
+  2. GROUPS card:
+    1. Make POLICIES link stand out even when not hovering.
+  3. PAYMENTS card:
+    1. animate.css each logo, one after another.
+  4. Test flexbox at all screen sizes.
+  5. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
+
 
 ### Schedule Now / Contact / Client Forms
 
 1. Fix hover effect on phone number. (Don't turn blue when hovering. Always underline so people know it can be clicked.)
 2. Email Form:
-  1. Add labels, but maybe don't display them. (For ADA purposes only.)
+  1. Add labels, but don't display them. (For ADA purposes only.)
   2. Improve the styling.
-  3. Fix styling of SUBMIT button.
-  4. Link to actual email system and test it. (Must deploy in order to test.)
+  3. Link to actual email system and test it. (Must deploy in order to test.)
 3. Add link to client forms page with separate PDFs (once that page is created).
 
 ### Footer
@@ -102,9 +98,7 @@ N/A
 
 1. Make sure the following are visible against all their various backgrounds:
   1. Chevrons
-  2. Nav Icon
-  3. Piel Canela Massage Therapy Logo
-  4. Social Media Icons
+  2. Social Media Icons
 2. Test mobile responsiveness.
 
 ## Deployment
