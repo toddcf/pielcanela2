@@ -455,8 +455,7 @@ blockquote {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-	html,
-	.blockquote {
+	html {
 		font-size: 1.2rem !important;
 	}
 
@@ -465,9 +464,8 @@ blockquote {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	
-	html,
-	.blockquote {
-		/*font-size: 1.3rem;*/
+	html {
+		font-size: 1.3rem !important;
 	}
 
 }
@@ -475,9 +473,8 @@ blockquote {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
-	html,
-	.blockquote {
-		font-size: 1.3rem;
+	html {
+		font-size: 1.4rem !important;
 	}
 
 }
