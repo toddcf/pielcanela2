@@ -1,3 +1,6 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap*/
+
 /** {
 	margin: 0;
 	padding: 0;
@@ -8,7 +11,7 @@
 html {
 	/*position: relative;*/
 	/*font-size: 20px;*/
-	font-size: 16px; /*xs screens*/
+	font-size: 16px;
 	color: #fff;
 	letter-spacing: 1px;
 }
@@ -48,6 +51,12 @@ section {
 	margin-left: 0;
 	margin-right: 0;
 	/*position: relative;*/  /* For the purposes of absolute-positioning the social icons. */
+}
+
+blockquote,
+.blockquote {
+	font-size: 1rem;
+	letter-spacing: 1px;
 }
 
 /* HERO SECTION */
@@ -443,14 +452,12 @@ blockquote {
 
 /* MEDIA QUERIES */
 
-/*Extra small devices (portrait phones, less than 576px)*/
-/*No media query since this is the default in Bootstrap*/
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-	html {
-		font-size: 1.2em;
+	html,
+	.blockquote {
+		font-size: 1.2rem !important;
 	}
 
 }
@@ -458,8 +465,9 @@ blockquote {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	
-	html {
-		/*font-size: 1.3em;*/
+	html,
+	.blockquote {
+		/*font-size: 1.3rem;*/
 	}
 
 }
@@ -467,8 +475,9 @@ blockquote {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
-	html {
-		font-size: 1.3em;
+	html,
+	.blockquote {
+		font-size: 1.3rem;
 	}
 
 }
