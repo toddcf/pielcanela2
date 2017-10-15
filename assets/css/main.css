@@ -38,10 +38,10 @@ body {
 	padding: 0;
 }*/
 
-a {
+/*a {
 	text-decoration: none;
 	color: inherit;
-}
+}*/
 
 h1 {
 	margin: 0;
@@ -83,6 +83,24 @@ blockquote,
 
 .social-logo a:hover,
 .social-logo a:active { color: #fff; }
+
+.show-link:link,
+.show-link:visited {
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 2px solid;
+	border-color: inherit;
+	color: inherit;
+}
+
+.show-link:hover,
+.show-link:active {
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: none;
+	border-color: inherit;
+	color: #e67e22;
+}
 
 .text-orange { color: #e67e22; }
 
