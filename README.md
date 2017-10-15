@@ -88,15 +88,11 @@ N/A
 
 ### Policies (Modal AND Separate Page)
   
-- Cancellation Policy
-- 24-Hour Advance Notice
-- No-Shows
-- Late Arrivals
-- Massage Certifications
-- Insurance
-- Links to client forms as separate PDF pages.
-- ADD: PRICES SUBJECT TO CHANGE.
+- ADD: Massage Certifications
+- ADD: Insurance
+- ADD: Links to client forms as separate PDF pages.
 - ADD: TRIP CHARGE INFO.
+- MODAL: Fix styling of "See Full Policy Document" button.
 
 ## Final Checks
 
