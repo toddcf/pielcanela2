@@ -27,7 +27,7 @@ The Official Piel Canela Massage Therapy website.
 ### Hero (Header)
 
 1. Replace bg image with a video (once we have the video).
-2. I removed the white margin on top of HERO by manually adding `margin-top: -30px;`, but I shouldn't have to do that. Figure out what is wrong.
+2. Why has the white space to the right of the entire site returned??
 
 ### Nav
 
@@ -42,7 +42,7 @@ N/A
 ### Benefits of Massage
 
 1. Each benefit card should fade in using Waypoints when the user scrolls down.
-2. Content: Overcome objections.
+2. Content: Overcome objections. (Use ACCORDION feature again!)
 3. Content: Why Brenda is the best massage therapist for them.
 
 ### Testimonials
@@ -79,13 +79,12 @@ N/A
 
 ### FAQ Page
 
-1. Enter content.
-2. Justify answers (but not questions).
-3. Style cards.
+1. Text-justify answers (but not questions).
+2. Style cards.
 
 ### Gift Certificates Page
 
-1. Add hover effects to gift certificate images. (Zoom, brighten, etc.)
+1. Add hover effects to gift certificate images. (Zoom, brighten, etc. MD Bootstrap??)
 2. Style phone number hover effects, etc.
 
 ### Policies (Modal AND Separate Page)
@@ -104,7 +103,7 @@ N/A
 
 ## Deployment
 
-1. Test deploy to Heroku.
+1. Test deploy to gh-pages.
 2. Get confirmation from Brenda.
 3. Deploy to GoDaddy.
 4. Have GoDaddy link the old URL to the new URL (instead of the other way around, like it is now).
