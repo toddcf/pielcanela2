@@ -56,8 +56,7 @@ N/A
     1. Make POLICIES link stand out even when not hovering.
   3. PAYMENTS card:
     1. animate.css each logo, one after another.
-  4. Test flexbox at all screen sizes.
-  5. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
+  4. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
 
 
 ### Schedule Now / Contact / Client Forms
@@ -84,7 +83,8 @@ N/A
 
 ### Gift Certificates Page
 
-1. Use a lightbox to display images of the gift certificates (front and back) when clicked.
+1. Add hover effects to gift certificate images.
+2. Style phone number hover effects, etc.
 
 ### Policies (Modal AND Separate Page)
   

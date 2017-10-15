@@ -447,8 +447,19 @@ input[type=submit] {
 	background-color: #555;
 }
 
-.telephone {
+.telephone-orange {
 	color: #e67e22;
+	border-bottom: 1px solid #e67e22;
+	padding-bottom: 1px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.telephone-white {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+	text-decoration: none;
 }
 
 /* ANIMATION */
@@ -481,7 +492,7 @@ input[type=submit] {
 }
 
 /*POLICIES PAGE */
-.policies-detail {
+.paragraph-detail {
 	border-radius: 10px;
 	border: 2px #fff solid;
 }
