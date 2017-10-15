@@ -16,6 +16,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
+1. Links: Style all links and hover effects throughout entire website.
 1. Buttons:
   1. Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
@@ -83,7 +84,7 @@ N/A
 
 ### Gift Certificates Page
 
-1. Add hover effects to gift certificate images.
+1. Add hover effects to gift certificate images. (Zoom, brighten, etc.)
 2. Style phone number hover effects, etc.
 
 ### Policies (Modal AND Separate Page)
@@ -91,7 +92,6 @@ N/A
 - ADD: Massage Certifications
 - ADD: Insurance
 - ADD: Links to client forms as separate PDF pages.
-- ADD: TRIP CHARGE INFO.
 - MODAL: Fix styling of "See Full Policy Document" button.
 
 ## Final Checks
