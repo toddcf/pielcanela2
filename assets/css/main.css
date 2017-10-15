@@ -23,6 +23,10 @@ body {
 	margin: 0;
 }
 
+.responsive-invite {
+	font-size: 1.5rem !important;
+}
+
 header {
 	margin-top: -35px;
 	/*margin-left: 0;
