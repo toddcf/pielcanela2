@@ -480,6 +480,12 @@ input[type=submit] {
 	font-size: 110% !important;
 }
 
+/*POLICIES PAGE */
+.policies-detail {
+	border-radius: 10px;
+	border: 2px #fff solid;
+}
+
 /* MEDIA QUERIES */
 
 /*Small devices (landscape phones, 576px and up)*/
