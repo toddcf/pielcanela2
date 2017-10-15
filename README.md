@@ -79,8 +79,9 @@ N/A
 
 ### FAQ Page
 
-1. Plain English.
-2. Use Bootstrap 4's expand and hide features. (And automatically close one answer when a different question is clicked.)
+1. Enter content.
+2. Justify answers (but not questions).
+3. Style cards.
 
 ### Gift Certificates Page
 
