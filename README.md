@@ -16,18 +16,18 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Links: Style all links and hover effects throughout entire website.
-1. Buttons:
+1. Why has the white space to the right of the entire site returned??
+2. Links: Style all links and hover effects throughout entire website.
+3. Buttons:
   1. Make sure text never extends outside of the buttons as screen width shrinks (especially in SERVICES section).
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
-2. Add social links to footer of each section.
+4. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
-3. Optional: Add and position all up and down chevrons.
+5. Optional: Add and position all up and down chevrons.
 
 ### Hero (Header)
 
-1. Replace bg image with a video (once we have the video).
-2. Why has the white space to the right of the entire site returned??
+N/A
 
 ### Nav
 

@@ -413,6 +413,12 @@ input[type=submit] {
 	height: auto;
 }*/
 
+.service {
+	/*background-color: #470b0b;*/
+	background-color: #7F4B26;
+	color: 	#ebebeb;
+}
+
 /*.services ul,
 .payments ul {
 	list-style: none;
