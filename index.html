@@ -758,7 +758,7 @@
 									<li class="list-group-item">Or use the email form on this page.</li>
 									<li class="list-group-item">Scheduling is by appointment only.</li>
 									<li class="list-group-item">New clients by referral only.</li>
-									<li class="list-group-item">Piel Canela Massage Therapy is located in West Los Angeles, and will travel to surrounding cities. See <a href="#">travel policy.</a></li> <!-- ADD MODAL LINK. -->
+									<li class="list-group-item">Piel Canela Massage Therapy is located in West Los Angeles, and will travel to surrounding cities. See <a href="#" data-toggle="modal" data-target="#travelPolicyModal" class="show-link">travel policy.</a></li>
 								</ul>
 							</div>
 						</div>
@@ -968,6 +968,31 @@
 				<div class="modal-footer">
 					<a href="policies.html" class="btn btn-outline-success btn-link">See Full Policy Document</a>
 					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Travel Policy Modal -->
+	<div class="modal fade" id="travelPolicyModal">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header bg-dark">
+					<h4 class="modal-title">Travel Policy</h4>
+					<button type="button" class="close text-orange" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body bg-light">
+					<p class="text-justify px-3 pt-2">Piel Canela Massage Therapy is centrally located in West Los Angeles, CA and will travel to surrounding cities.</p>
+					<p class="text-justify px-3">Destinations beyond a radius of 40 miles will incur a $50 travel fee.</p>
+					<p class="lead text-center"><em>Piel Canela Massage Therapy looks forward to serving you!</em></p>
+				</div>
+				<div class="modal-footer bg-dark">
+					<!-- <a class="btn btn-outline-orange btn-block mt-4 py-3 button-text" href="gifts.html">Learn More</a> -->
+					<a href="policies.html" class="btn btn-outline-orange btn-text">See Full Policy Document</a>
+					<a href="#" class="btn btn-orange btn-text" type="button" data-dismiss="modal">Close</a>
+					<!-- <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button> -->
 				</div>
 			</div>
 		</div>

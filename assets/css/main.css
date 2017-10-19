@@ -423,6 +423,10 @@ input[type=submit] {
 	border-radius: 10px;
 }
 
+.modal-header {
+	color: #e67e22;
+}
+
 /*.services ul,
 .payments ul {
 	list-style: none;
