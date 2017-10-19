@@ -387,17 +387,26 @@
 
 			<div class="row">
 				
-				<div class="col-md-6">
-					<div class="card my-4 bg-transparent text-white objections">
-						<div class="card-body">
-							<h4 class="card-title text-center">Objections</h4>
-							<ul class="list-group list-group-flush">
-								<li class="list-group-item bg-transparent">I'm trying to save money.</li>
-								<li class="list-group-item bg-transparent">I don't have time.</li>
-							</ul>
+				
+					<div class="col-md-6">
+						<div class="card my-4 bg-transparent text-white objections">
+							<div class="card-body">
+								<h4 class="card-title text-center">Objections</h4>
+								<div id="accordion">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item bg-transparent text-center" id="objectionOne">
+											<a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">I'm trying to save money</a>
+										</li>
+										<li id="collapseOne" class="collapse"><p class="p-3 text-justify">Massage is an investment, not an expense. By taking regular care of your body, you are preventing costly breakdowns that will result in health problems, lost exercise, difficulty sleeping, and reduced work efficiency. See the list of benefits above for more info.</p></li>
+										<li class="list-group-item bg-transparent text-center" id="objectionTwo">
+											<a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">I don't have time</a>
+										</li>
+										<li id="collapseTwo" class="collapse"><p class="p-3 text-justify">Preemptive body maintenance is less time-consuming (and more enjoyable) than repair. By making time for self-care now, you are saving time and increasing efficiency in the bigger picture.</p></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
 				<div class="col-md-6">
 					<div class="card my-4 bg-transparent text-white why-brenda">
@@ -754,7 +763,7 @@
 						<div class="card-body">
 							<div class="card-text text-center">
 								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Call or text to make an appointment: <a href="tel:1-323-401-1081" class="telephone-orange"><strong>323-401-1081</strong></a></li>
+									<li class="list-group-item">Call or text to make an appointment:<br><a href="tel:1-323-401-1081" class="telephone-orange"><strong>323-401-1081</strong></a></li>
 									<li class="list-group-item">Or use the email form on this page.</li>
 									<li class="list-group-item">Scheduling is by appointment only.</li>
 									<li class="list-group-item">New clients by referral only.</li>
