@@ -427,6 +427,10 @@ input[type=submit] {
 	color: #e67e22;
 }
 
+.modal-body {
+	background-color: #555;
+}
+
 /*.services ul,
 .payments ul {
 	list-style: none;
