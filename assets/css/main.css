@@ -415,8 +415,12 @@ input[type=submit] {
 
 .service {
 	/*background-color: #470b0b;*/
-	background-color: #7F4B26;
-	color: 	#ebebeb;
+	/*background-color: #7F4B26;*/
+	/*color: #ebebeb;*/
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	border: 2px #fff solid;
+	border-radius: 10px;
 }
 
 /*.services ul,
