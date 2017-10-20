@@ -31,9 +31,8 @@ N/A
 
 ### Nav
 
-1. Add hover effects to svg (if possible) and text below the logo, so users know it's a link.
-2. Connect all links to other pages (once those pages are created).
-3. Once a nav-item is clicked, the nav should collapse.
+1. Add hover effects to svg (if possible) so users know it's a link.
+2. Once a nav-item is clicked, the nav should collapse.
 
 ### About the Therapist
 
@@ -86,6 +85,10 @@ N/A
 
 1. Add hover effects to gift certificate images. (Zoom, brighten, etc. MD Bootstrap??)
 2. Style phone number hover effects, etc.
+
+### Infant Massage Page
+
+1. Need content from Brenda to create this page.
 
 ### Policies (Modal AND Separate Page)
   
