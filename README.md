@@ -29,7 +29,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Hero (Header)
 
-- N/A
+- Done!
 
 ### Nav
 
@@ -38,7 +38,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### About the Therapist
 
-N/A
+- Done!
 
 ### Benefits of Massage
 
@@ -46,11 +46,11 @@ N/A
 
 ### Testimonials
 
-N/A
+- Done!
 
 ### Services and Rates
 
-1. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
+1. Once the INFANT MASSAGE page is ready, link to that and delete the modal.
 2. PAYMENTS card:
   1. animate.css each logo, one after another.
 3. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
@@ -64,15 +64,15 @@ N/A
 
 ### Footer
 
-- N/A
+- Done!
 
 ### Client Forms
 
-- N/A
+- Done!
 
 ### FAQ Page
 
-- N/A
+- Done!
 
 ### Gift Certificates Page
 
@@ -82,8 +82,8 @@ N/A
 
 1. Need content from Brenda to create this page.
 
-### Policies (Modal AND Separate Page)
-  
+### Policies Page
+
 - ADD: Massage Certifications
 - ADD: Insurance
 - ADD: Links to client forms as separate PDF pages.
@@ -97,10 +97,9 @@ N/A
 
 ## Deployment
 
-1. Test deploy to gh-pages.
-2. Get confirmation from Brenda.
-3. Deploy to GoDaddy.
-4. Have GoDaddy link the old URL to the new URL (instead of the other way around, like it is now).
+1. Get confirmation from Brenda.
+2. Deploy to GoDaddy.
+3. Have GoDaddy link the old URL to the new URL (instead of the other way around, like it is now).
 
 ## Future Iterations:
 
