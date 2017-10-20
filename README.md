@@ -22,6 +22,8 @@ The Official Piel Canela Massage Therapy website.
   1. Make sure text never extends outside of the buttons as screen width shrinks.
     1. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
     2. Schedule Now: CLICK HERE FOR NEW CLIENT FORMS spills over.
+    3. Cancellation Policy modal: SEE FULL DOCUMENT button.
+    4. Travel Policy modal: SEE FULL DOCUMENT button.
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
 4. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
@@ -29,7 +31,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Hero (Header)
 
-N/A
+- N/A
 
 ### Nav
 
@@ -43,8 +45,6 @@ N/A
 ### Benefits of Massage
 
 1. Each benefit card should fade in using Waypoints when the user scrolls down.
-2. Content: Overcome objections. (Use ACCORDION feature again!)
-3. Content: Why Brenda is the best massage therapist for them.
 
 ### Testimonials
 
@@ -52,23 +52,17 @@ N/A
 
 ### Services and Rates
 
-1. Style all services cards.
-  1. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
-  2. GROUPS card:
-    1. Make POLICIES link stand out even when not hovering.
-  3. PAYMENTS card:
-    1. animate.css each logo, one after another.
-  4. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
+1. Should INFANT MASSAGE's "Learn More" open a modal or a separate page?
+2. PAYMENTS card:
+  1. animate.css each logo, one after another.
+3. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
 
 
 ### Schedule Now / Contact / Client Forms
 
-1. Fix hover effect on phone number. (Don't turn blue when hovering. Always underline so people know it can be clicked.)
-2. Email Form:
+1. Email Form:
   1. Add labels, but don't display them. (For ADA purposes only.)
-  2. Improve the styling.
-  3. Link to actual email system and test it. (Must deploy in order to test.)
-3. Add link to client forms page with separate PDFs (once that page is created).
+  2. Link to actual email system and test it. (Must deploy in order to test.)
 
 ### Footer
 
@@ -85,7 +79,6 @@ N/A
 ### Gift Certificates Page
 
 1. Add hover effects to gift certificate images. (Zoom, brighten, etc. MD Bootstrap??)
-2. Style phone number hover effects, etc.
 
 ### Infant Massage Page
 
@@ -96,7 +89,6 @@ N/A
 - ADD: Massage Certifications
 - ADD: Insurance
 - ADD: Links to client forms as separate PDF pages.
-- MODAL: Fix styling of "See Full Policy Document" button.
 
 ## Final Checks
 
