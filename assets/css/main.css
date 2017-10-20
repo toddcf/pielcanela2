@@ -13,7 +13,6 @@
 
 html {
 	/*position: relative;*/
-	/*font-size: 20px;*/
 	font-size: 16px;
 	color: #fff;
 	letter-spacing: 1px;
@@ -21,7 +20,6 @@ html {
 
 body {
 	font-family: 'Lato', sans-serif, arial;
-	/*font-size: 20px;*/
 	font-weight: 300;
 	margin: 0;
 }
@@ -29,17 +27,6 @@ body {
 .responsive-invite {
 	font-size: 1.5rem !important;
 }
-
-/*header {*/
-	/*margin-top: -35px;*/
-	/*margin-left: 0;
-	margin-right: 0;*/
-/*}*/
-
-/*.main-container {
-	margin: 0;
-	padding: 0;
-}*/
 
 a {
 	text-decoration: none;
@@ -49,7 +36,6 @@ a {
 h1 {
 	margin: 0;
 	padding: 3.2rem 0; /*60px top and bottom*/
-	/*font-size: 400%;*/
 	font-size: 300%;
 	font-weight: 300;
 }
@@ -58,7 +44,6 @@ section {
 	min-height: 100vh;
 	margin-left: 0;
 	margin-right: 0;
-	/*position: relative;*/  /* For the purposes of absolute-positioning the social icons. */
 }
 
 blockquote,
@@ -80,30 +65,12 @@ blockquote,
 	text-decoration: none; /* No default underline */
 	-webkit-transition: border-bottom 0.2s, color 0.2s;
 			-o-transition: border-bottom 0.2s, color 0.2s;
-			transition: border-bottom 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
+			transition: border-bottom 0.2s, color 0.2s;
 
 }
 
 .social-logo a:hover,
 .social-logo a:active { color: #fff; }
-
-.show-link:link,
-.show-link:visited {
-	text-decoration: none;
-	padding-bottom: 1px;
-	border-bottom: 2px solid;
-	border-color: inherit;
-	color: inherit;
-}
-
-.show-link:hover,
-.show-link:active {
-	text-decoration: none;
-	padding-bottom: 1px;
-	border-bottom: none;
-	border-color: inherit;
-	color: #e67e22;
-}
 
 .text-orange { color: #e67e22; }
 
@@ -113,25 +80,14 @@ blockquote,
 	min-height: 100vh;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))) , url(../img/hands-xl.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../img/hands-xl.jpg);
-	background-size: cover; /*Shows entire image*/
-	background-position: center; /*Centers the background*/
+	background-size: cover;
+	background-position: center;
 
 }
-
-/*.brand {
-	width: 75%;
-	padding-top: 150px;
-	margin-left: 100px;
-}*/
-
-/*.hero-button-box {
-	margin: 20px 0 100px 120px;
-}*/
 
 /* BUTTONS */
 
 .custom-btn {
-	/*margin: 40px;*/
 	font-size: 110%;
 }
 
@@ -143,7 +99,7 @@ blockquote,
 	text-decoration: none;
 	border-radius: 200px;
 	-webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-	transition: background-color 0.2s, border 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .custom-btn-full:link,
@@ -163,10 +119,9 @@ input[type=submit] {
 
 input[type=submit] {
 	-webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-	transition: background-color 0.2s, border 0.2s, color 0.2s; /* Transition takes 0.2 seconds. */
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-/* Button color darkens when hovered or clicked: */
 .custom-btn:hover,
 .custom-btn:active,
 input[type=submit]:hover,
@@ -212,6 +167,9 @@ input[type=submit] {
 	background: transparent;
 	border: 2px solid #cf6d17;
 	color: #cf6d17;
+	-webkit-transition: border-bottom 0.2s, color 0.2s;
+			-o-transition: border-bottom 0.2s, color 0.2s;
+			transition: border-bottom 0.2s, color 0.2s;
 }
 
 .btn-outline-orange:hover,
@@ -225,11 +183,11 @@ input[type=submit] {
 	font-size: 0.9rem;
 }
 
- .button-text-medium {
+.button-text-medium {
  	/*margin-bottom: 0;*/
  }
 
- .button-text-large {
+.button-text-large {
 	font-size: 1.5rem;
  }
 
@@ -239,9 +197,6 @@ input[type=submit] {
 
 .piel-logo {
 	
-	/*position: absolute;
-	bottom: 0;
-	left: 0;*/
 	width: 200px;
 	color: #000;
 
@@ -255,19 +210,16 @@ input[type=submit] {
 
 .piel-logo figcaption {
 	font-size: 48%;
-	/*text-align: center;*/
-	color: #d9d9d9;
-}
-
-.piel-logo figcaption:link,
-.piel-logo figcaption:visited {
-	
+	color: #a6a6a6;
 }
 
 .piel-logo figcaption:hover,
 .piel-logo figcaption:active {
 	cursor: pointer;
 	color: #fff;
+	-webkit-transition: color 0.2s;
+			-o-transition: color 0.2s;
+			transition: color 0.2s;
 }
 
 .navbar-toggler-icon:hover,
@@ -286,67 +238,22 @@ input[type=submit] {
 	border-radius: 0; /* Not having any effect. */
 }
 
-/*.profile-img {
-	width: 90%;
-	margin: 0 0 0 auto;
-}
-
-.profile-img img {
-	width: 100%;
-}*/
-
-/*.profile-img figcaption {
-	text-align: center;
-	padding: 10px;
-}*/
-
-/*.bio {
-	width: 65%;
-	margin: 0 auto;
-	margin-bottom: 100px;
-	padding-right: 150px;
-	padding-left: 50px;
-	text-align: justify;
-	line-height: 1.5;
-	font-weight: 300;
-
-}*/
-
-/*.bio p {
-	padding-bottom: 20px; 
-}*/
-
 /* BENEFITS OF MASSAGE SECTION */
 
 #benefits {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))) , url(../img/hands-xl.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../img/hands-xl.jpg);
-	background-size: cover; /*Shows entire image*/
-	background-position: center; /*Centers the background*/
+	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 }
-
-/*.benefits-row {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.massage-benefits,
-.more-benefits {
-	width: 95%;
-	margin: 0 auto;
-	font-weight: 300;
-	text-align: justify;
-	line-height: 1.5;
-}*/
 
 .massage-benefits,
 .objections,
 .why-brenda {
-	/*min-height: 200px;*/
+
 	border: 1px solid #fff;
-	/*border-radius: 5px;*/
-	/*padding: 20px 20px 30px 20px;	*/
+
 }
 
 .massage-benefits { font-size: 0.8rem; }
@@ -363,6 +270,9 @@ input[type=submit] {
 .objection-header:link,
 .objection-header:visited {
 	color: #e67e22;
+	-webkit-transition: color 0.2s;
+			-o-transition: color 0.2s;
+			transition: color 0.2s;
 }
 
 .objection-header:hover,
@@ -371,27 +281,6 @@ input[type=submit] {
 	text-decoration: none;
 }
 
-/*.massage-benefits,
-.why-brenda {
-	margin-bottom: 100px;
-
-}
-
-.massage-benefits p,
-.massage-benefits ul {
-	padding: 20px;
-}
-
-.massage-benefits li {
-	margin-left: 40px;
-	text-align: left;
-}
-
-.objections,
-.why-brenda {
-
-}*/
-
 /* TESTIMONIALS SECTION */
 #testimonials {
 
@@ -399,8 +288,8 @@ input[type=submit] {
 	/*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../img/john-henry-canault-218381.jpg);*/
 	background-image: url(../img/john-henry-canault-218381.jpg);
 	background-attachment: fixed;
-	background-size: cover; /*Shows entire image*/
-	background-position: center; /*Centers the background*/
+	background-size: cover;
+	background-position: center;
 
 }
 
@@ -427,33 +316,7 @@ input[type=submit] {
 	background-color: #000;
 }
 
-/*.rates-flex {
-
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 100px;
-
-	display: -webkit-box;
-
-	display: -ms-flexbox;
-
-	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-
-}*/
-
-/*.services {
-	border: 1px solid #fff;
-	border-radius: 5px;
-	padding: 15px;
-	height: auto;
-}*/
-
 .service {
-	/*background-color: #470b0b;*/
-	/*background-color: #7F4B26;*/
-	/*color: #ebebeb;*/
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 	border: 1px #fff solid;
@@ -468,33 +331,13 @@ input[type=submit] {
 	background-color: #555;
 }
 
-/*.services ul,
-.payments ul {
-	list-style: none;
-	
-}*/
-
  .side-by-side {
  	display: inline-block;
  	float: left;
 }
 
-/*.payments,
-.policies {
-	width: 99%;
-}*/
-
-/*.payments li {
-	display: inline;
-}*/
-
 .payment-cards {
 	height: 40px;
-}
-
-#cash-icon {
-	/*color: green;*/
-	/*font-size: 50px;*/
 }
 
 /* SCHEDULE NOW SECTION */
@@ -512,6 +355,9 @@ input[type=submit] {
 	color: #e67e22;
 	border-bottom: 2px solid #e67e22;
 	text-decoration: none;
+	-webkit-transition: border-bottom 0.2s, color 0.2s;
+			-o-transition: border-bottom 0.2s, color 0.2s;
+			transition: border-bottom 0.2s, color 0.2s;
 }
 
 .orange-link:hover,
