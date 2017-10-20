@@ -23,6 +23,11 @@ $( document ).ready( function() {
 		
 	// });
 
+	// Collapse nav when links are clicked:
+	// $('.navbar-nav>li>a').on('click', function(){
+	//     $('.navbar-collapse').collapse('hide');
+	// });
+
 	// BUTTON CLICK SCROLLING
 
 	$( ".scroll-to-top" ).click( function() {

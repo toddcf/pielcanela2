@@ -17,15 +17,13 @@ The Official Piel Canela Massage Therapy website.
 ### All
 
 1. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
-2. Links: Style all links and hover effects throughout entire website.
-3. Buttons:
+2. Buttons:
   1. Make sure text never extends outside of the buttons as screen width shrinks.
-    1. Infant Massage card: Button texts spill over on some of the WIDER screen sizes.
-    2. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
+    1. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
-4. Add social links to footer of each section.
+3. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
-5. Optional: Add and position all up and down chevrons.
+4. Optional: Add and position all up and down chevrons.
 
 ### Hero (Header)
 
@@ -33,8 +31,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Nav
 
-1. Add hover effects to svg (if possible) so users know it's a link.
-2. Once a nav-item is clicked, the nav should collapse.
+1. Add hover effects to SVG (if possible) so users know it's a link.
 
 ### About the Therapist
 
@@ -52,7 +49,7 @@ The Official Piel Canela Massage Therapy website.
 
 1. Once the INFANT MASSAGE page is ready, link to that and delete the modal.
 2. PAYMENTS card:
-  1. animate.css each logo, one after another.
+  1. animate.css and Waypoints each logo, one after another.
 3. Make each card pop up into frame when user scrolls down, using Waypoints and animate.css.
 
 
@@ -104,4 +101,5 @@ The Official Piel Canela Massage Therapy website.
 ## Future Iterations:
 
 1. Set active class on nav to whichever section you're viewing.
-2. Create MailChimp list and add signup form (and icon) to this website.
+2. Once a nav-item is clicked, the nav should collapse. (Can do this, but it creates a glitch that scrolls to the middle of a section, not the top of a section.)
+3. Create MailChimp list and add signup form (and icon) to this website.

@@ -363,13 +363,13 @@ input[type=submit] {
 .orange-link {
 	padding-bottom: 1px;
 	font-weight: 400;
+	text-decoration: none;
 }
 
 .orange-link:link,
 .orange-link:visited {
 	color: #e67e22;
 	border-bottom: 2px solid #e67e22;
-	text-decoration: none;
 	-webkit-transition: border-bottom 0.2s, color 0.2s;
 			-o-transition: border-bottom 0.2s, color 0.2s;
 			transition: border-bottom 0.2s, color 0.2s;
