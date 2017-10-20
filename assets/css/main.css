@@ -149,6 +149,15 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+.close:hover {
+	cursor: pointer;
+}
+
+.btn-orange {
+	background-color: #e67e22;
+	color: #fff;
+}
+
 .btn-orange:link,
 .btn-orange:visited {
 
