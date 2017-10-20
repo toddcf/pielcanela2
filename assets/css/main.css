@@ -448,6 +448,28 @@ input[type=submit] {
 	border: 2px #fff solid;
 }
 
+/* GIFT CERTIFICATES PAGE */
+.gift-cert {
+	overflow: hidden;
+	-webkit-transform: scale(1.03);
+	        -ms-transform: scale(1.03);
+	    transform: scale(1.03); /* No zoom when not hovering -- minus 3% to prevent a white gap from appearing at the edges of the image. */
+	-webkit-transition: -webkit-transform 0.75s, -webkit-filter 0.75s;
+			transition: -webkit-transform 0.75s, -webkit-filter 0.75s;
+			-o-transition: transform 0.75s, filter 0.75s;
+			transition: transform 0.75s, filter 0.75s;
+			transition: transform 0.75s, filter 0.75s, -webkit-transform 0.75s, -webkit-filter 0.75s;
+			transition: transform 0.75s, filter 0.75s, -webkit-transform 0.75s;
+}
+
+.gift-cert:hover {
+	-webkit-filter: brightness(105%);
+			filter: brightness(105%);		
+	-webkit-transform: scale(1.05);
+	        -ms-transform: scale(1.05);
+	    transform: scale(1.05); /* When hovering, zoom in 5%. */
+}
+
 /* MEDIA QUERIES */
 
 /*Small devices (landscape phones, 576px and up)*/

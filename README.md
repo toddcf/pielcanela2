@@ -16,10 +16,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Add social links to footer of each section.
-  1. Vertically center the "Join Us" text.
-2. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
-3. Optional: Add and position all up and down chevrons.
+1. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
 
 ### Hero (Header)
 
@@ -69,7 +66,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Gift Certificates Page
 
-1. Add hover effects to gift certificate images. (Zoom, brighten, etc. MD Bootstrap??)
+- Done!
 
 ### Infant Massage Page
 
@@ -83,10 +80,7 @@ The Official Piel Canela Massage Therapy website.
 
 ## Final Checks
 
-1. Make sure the following are visible against all their various backgrounds:
-  1. Chevrons
-  2. Social Media Icons
-2. Test mobile responsiveness.
+1. Test mobile responsiveness.
 
 ## Deployment
 
