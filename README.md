@@ -17,13 +17,9 @@ The Official Piel Canela Massage Therapy website.
 ### All
 
 1. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
-2. Buttons:
-  1. Make sure text never extends outside of the buttons as screen width shrinks.
-    1. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
-  2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
-3. Add social links to footer of each section.
+2. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
-4. Optional: Add and position all up and down chevrons.
+3. Optional: Add and position all up and down chevrons.
 
 ### Hero (Header)
 

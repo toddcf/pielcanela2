@@ -1,4 +1,4 @@
-/*Extra small devices (portrait phones, less than 576px)*/
+Extra small devices (portrait phones, less than 576px)*/
 /*No media query since this is the default in Bootstrap*/
 
 /*Regular Orange: #e67e22*/
@@ -196,13 +196,18 @@ input[type=submit] {
 	font-size: 0.9rem;
 }
 
-.button-text-medium {
- 	/*margin-bottom: 0;*/
- }
-
 .button-text-large {
-	font-size: 1.5rem;
- }
+	font-size: 1.3rem;
+}
+
+/* Remove Bootstrap 4's blue border when buttons are clicked: */
+.btn:focus,
+.btn:active,
+.btn:visited {
+	outline: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
 
 /* NAV */
 
@@ -484,4 +489,4 @@ input[type=submit] {
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) { ... }*/
+/*@media (min-width: 1200px) { ... }
