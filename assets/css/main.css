@@ -1,6 +1,9 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 /*No media query since this is the default in Bootstrap*/
 
+/*Regular Orange: #e67e22*/
+/*Dark Orange: #cf6d17*/
+
 /** {
 	margin: 0;
 	padding: 0;
@@ -253,10 +256,24 @@ input[type=submit] {
 .piel-logo figcaption {
 	font-size: 48%;
 	/*text-align: center;*/
+	color: #d9d9d9;
 }
 
-.navbar-toggler-icon:hover {
+.piel-logo figcaption:link,
+.piel-logo figcaption:visited {
+	
+}
+
+.piel-logo figcaption:hover,
+.piel-logo figcaption:active {
 	cursor: pointer;
+	color: #fff;
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:active {
+	cursor: pointer;
+	color: #fff;
 }
 
 /* ABOUT THE THERAPIST SECTION */
@@ -333,6 +350,26 @@ input[type=submit] {
 }
 
 .massage-benefits { font-size: 0.8rem; }
+
+.objections,
+.why-brenda {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.objection-header {
+	font-weight: 400;
+}
+
+.objection-header:link,
+.objection-header:visited {
+	color: #e67e22;
+}
+
+.objection-header:hover,
+.objection-header:active {
+	color: #fff;
+	text-decoration: none;
+}
 
 /*.massage-benefits,
 .why-brenda {
@@ -419,7 +456,7 @@ input[type=submit] {
 	/*color: #ebebeb;*/
 	background: rgba(0,0,0,0.5);
 	color: #fff;
-	border: 2px #fff solid;
+	border: 1px #fff solid;
 	border-radius: 10px;
 }
 
@@ -465,12 +502,23 @@ input[type=submit] {
 	background-color: #555;
 }
 
-.telephone-orange {
-	color: #e67e22;
-	border-bottom: 1px solid #e67e22;
+.orange-link {
 	padding-bottom: 1px;
 	font-weight: 400;
+}
+
+.orange-link:link,
+.orange-link:visited {
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
 	text-decoration: none;
+}
+
+.orange-link:hover,
+.orange-link:active {
+	color: #cf6d17;
+	text-decoration: none;
+	border-bottom: none;
 }
 
 .telephone-white {
