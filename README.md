@@ -16,9 +16,9 @@ The Official Piel Canela Massage Therapy website.
 
 ### All
 
-1. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
-2. Add social links to footer of each section.
+1. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
+2. Why has the white space to the right of the entire site returned?? It's only on index.html, not the other pages.
 3. Optional: Add and position all up and down chevrons.
 
 ### Hero (Header)
