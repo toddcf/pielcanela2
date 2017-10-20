@@ -1,0 +1,17 @@
+.card {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.faq-header:link,
+.faq-header:visited {
+	color: #e67e22;
+	-webkit-transition: color 0.2s;
+			-o-transition: color 0.2s;
+			transition: color 0.2s;
+}
+
+.faq-header:hover,
+.faq-header:active {
+	color: #fff;
+	text-decoration: none;
+}

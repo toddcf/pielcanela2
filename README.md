@@ -21,6 +21,7 @@ The Official Piel Canela Massage Therapy website.
 3. Buttons:
   1. Make sure text never extends outside of the buttons as screen width shrinks.
     1. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
+    2. Schedule Now: CLICK HERE FOR NEW CLIENT FORMS spills over.
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
 4. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
@@ -79,8 +80,7 @@ N/A
 
 ### FAQ Page
 
-1. Text-justify answers (but not questions).
-2. Style cards.
+- N/A
 
 ### Gift Certificates Page
 
