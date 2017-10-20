@@ -20,10 +20,11 @@ The Official Piel Canela Massage Therapy website.
 2. Links: Style all links and hover effects throughout entire website.
 3. Buttons:
   1. Make sure text never extends outside of the buttons as screen width shrinks.
-    1. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
-    2. Schedule Now: CLICK HERE FOR NEW CLIENT FORMS spills over.
-    3. Cancellation Policy modal: SEE FULL DOCUMENT button.
-    4. Travel Policy modal: SEE FULL DOCUMENT button.
+    1. Infant Massage card: Button texts spill over on some of the WIDER screen sizes.
+    2. Group Rates: SCHEDULE NOW text should shrink at the smallest screen size.
+    3. Schedule Now: CLICK HERE FOR NEW CLIENT FORMS spills over.
+    4. Cancellation Policy modal: SEE FULL DOCUMENT button.
+    5. Travel Policy modal: SEE FULL DOCUMENT button.
   2. Remove Bootstrap's blue outline that appears automatically after button is clicked.
 4. Add social links to footer of each section.
   1. Vertically center the "Join Us" text.
