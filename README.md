@@ -48,7 +48,7 @@ The Official Piel Canela Massage Therapy website.
 
 ### Schedule Now / Contact / Client Forms
 
-1. Button: "Click Here For New Client Forms" text is not responding to font-size changes.
+1. Button: "Click Here For New Client Forms" text is not responding to font-size changes. (Try overflow wrap: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)
 2. Email Form:
   1. Add labels, but don't display them. (For ADA purposes only.)
   2. Link to actual email system and test it. (Must deploy in order to test.)
