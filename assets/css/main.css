@@ -439,7 +439,7 @@ input[type=submit] {
 /*SCHEDULE NOW SECTION*/
 
 .forms-button {
-	font-size: 400% !important; /*THIS ISN'T WORKING!*/
+	font-size: 100% !important; /*THIS ISN'T WORKING!*/
 }
 
 /*POLICIES PAGE */
